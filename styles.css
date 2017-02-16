@@ -1,0 +1,35 @@
+table{
+	border: 1px solid #111;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th, td{
+	border: 1px solid #111;
+	width: 50px;
+	height: 25px;
+}
+
+th{
+	background: #333;
+	color: #fff;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+input[type="submit"]{
+	width: 200px;
+	margin-top: 20px;
+}
+
+label:not(:first-of-type){
+	margin-top: 20px;
+}
+
+.error{
+	color: #DC143C;
+}
